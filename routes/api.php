@@ -19,4 +19,4 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
     return $request->user();
 });
 
-Route::post('/game',[GameController::class,'getTurns']);
+Route::post('/v1/game',[GameController::class,'getTurns']);

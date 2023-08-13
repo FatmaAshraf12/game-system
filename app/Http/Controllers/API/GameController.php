@@ -52,7 +52,7 @@ class GameController extends Controller
 
     /**
      * @OA\Post(
-     * path="/api/game",
+     * path="/api/v1/game",
      * operationId="getTurns",
      * tags={"getTurns"},
      * summary="Game Turns",

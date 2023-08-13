@@ -1,11 +1,11 @@
 {
     "openapi": "3.0.0",
     "info": {
-        "title": "Your super  ApplicationAPI",
+        "title": "Game System ApplicationAPI",
         "version": "1.0.0"
     },
     "paths": {
-        "/api/game": {
+        "/api/v1/game": {
             "post": {
                 "tags": [
                     "getTurns"
